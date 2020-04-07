@@ -13,7 +13,7 @@ source "https://rubygems.org"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 
-gem "github-pages", "~> 204"， group: :jekyll_plugins
+gem "github-pages", "~> 204", group: :jekyll_plugins
 gem "jekyll-theme-cayman-blog"
 
 # If you have any plugins, put them here!
@@ -28,6 +28,4 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo-data"
 end
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
