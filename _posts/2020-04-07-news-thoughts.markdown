@@ -3,6 +3,7 @@ layout: post
 title:  "时事杂谈（一）"
 date:   2020-04-07
 categories: News
+comments: true
 ---
 1. “女权”杂谈
 
