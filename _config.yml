@@ -20,3 +20,13 @@ author: Zipei Geng
 image:
 twitter:
   username: ZipeiGeng
+  
+comment:
+  gitment:
+    enable: true
+    owner: 'zpgeng' # 必填项, 你的GitHub ID
+    repo: 'zpgeng.github.io' # 必填项  你的存储评论的repo
+    oauth:
+      client_id: '406124fff27c65dea2f8' # 必填项
+      client_secret: '12d59d3a9d5fd026f5032cc5606e3efb4c41eb79' # 必填项
+      redirect_uri: https://zpgeng.github.io
