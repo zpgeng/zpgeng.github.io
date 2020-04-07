@@ -6,7 +6,7 @@ categories: Machine Learning
 ---
 Recently, I have been learning a great amount of materials related to neural network and deep learning. I am a bit confused first since every source of teaching CNN differs a lot in their contents and focuses. This article is focusing on illustration but not theoretical counterparts of CNN. To some extent, forward propagation and backward propagation is just the process of function iterations and chain rules of derivatives, so it is less confusing when we are studying this specific subject. What is confusing the the key concepts and ideas behind the whole CNN architecture. Now, I will begin to illustrate some key ideas in CNN below:
 
-1. A feature map is the output activation for a given filter, e.g. $a_1 = ReLU(w_1 * x_1 +     b_1 ) $ is a feature map, where $w1$ are a series of filters/kernels with which we can deal the convolution, $x_1$ is the input data and the multiplication between filter and data is just a simple dot multiplication. Finally, $b_1$ is the bias and we can always scale the data to avoid this term.
+1. A feature map is the output activation for a given filter, e.g. `A = ReLU(W * X + B) ` is a feature map, where `A ` is the output activation, `W` are a series of filters/kernels with which we can deal the convolution, `X`is the input data and the multiplication between filter and data is just a simple dot multiplication. Finally, `B` is the bias and we can always scale the data to avoid this term.
 
    
 
@@ -14,7 +14,7 @@ Recently, I have been learning a great amount of materials related to neural net
 
    
 
-   In CNN, we could have a bunch of pixels (not all of the picles) as one feature and there are many useful features in one image (as exemplified above). We then use the filter/kernel to convolve them into a 2D matrix and use non-linear transformation(e.g. **ReLu** AND **Sigmoid**) to get an output activation.
+   In CNN, we could have a bunch of pixels (not all of the pixels) as one feature and there are many useful features in one image (as exemplified above). We then use the filter/kernel to convolve them into a 2D matrix and use non-linear transformation(e.g. **ReLU** AND **Sigmoid**) to get an output activation.
 
    
 
