@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Convolution Neural Network 1"
+title:  "Convolutional Neural Network 1"
 date:   2020-04-07
-categories: Machine Learning
+categories: Machine-Learning
 comments: true
 ---
 Recently, I have been learning a great amount of materials related to neural network and deep learning. I am a bit confused first since every source of teaching CNN differs a lot in their contents and focuses. This article is focusing on illustration but not theoretical counterparts of CNN. To some extent, forward propagation and backward propagation is just the process of function iterations and chain rules of derivatives, so it is less confusing when we are studying this specific subject. What is confusing the the key concepts and ideas behind the whole CNN architecture. Now, I will begin to illustrate some key ideas in CNN below:
