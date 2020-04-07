@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Convolution Neural Network 1"
+date:   2020-04-07
+categories: Machine Learning
+---
+Recently, I have been learning a great amount of materials related to neural network and deep learning. I am a bit confused first since every source of teaching CNN differs a lot in their contents and focuses. This article is focusing on illustration but not theoretical counterparts of CNN. To some extent, forward propagation and backward propagation is just the process of function iterations and chain rules of derivatives, so it is less confusing when we are studying this specific subject. What is confusing the the key concepts and ideas behind the whole CNN architecture. Now, I will begin to illustrate some key ideas in CNN below:
+
+1. A feature map is the output activation for a given filter, e.g. $a_1 = ReLU(w_1 * x_1 +     b_1 ) $ is a feature map, where $w1$ are a series of filters/kernels with which we can deal the convolution, $x_1$ is the input data and the multiplication between filter and data is just a simple dot multiplication. Finally, $b_1$ is the bias and we can always scale the data to avoid this term.
+
+   
+
+2. Feature is the features in  the image pixels. From my point of view, features can be the different specific parts in an image. For example, sometimes it is useful to look at boundary pixel and sometimes we will focus our attention on the centre of the image.
+
+   
+
+   In CNN, we could have a bunch of pixels (not all of the picles) as one feature and there are many useful features in one image (as exemplified above). We then use the filter/kernel to convolve them into a 2D matrix and use non-linear transformation(e.g. **ReLu** AND **Sigmoid**) to get an output activation.
+
+   
+
+3. **The neuron in the feature map**: 
+
+   
+
+   Each neuron in a feature map can only “peek” at a small region of the input. Thus, a neuron in the upper left corner of a feature map can see a small window of the upper left corner of the input image. The neighbouring neuron in the same feature map right next to it can see a small window adjacent to the first one’s window. This means that a feature map can see the whole input image by “scanning” it with its neurons. And when learning the representation of the image, every neuron share the same parameters, which decreases the computational complexity and mitigates the problem of overfitting.
+
+
+
+
+
+Some useful links:
+
+
+
+1. [Stanford CS231n: Convolutional Neural Networks for Visual Recognition][stancs231]
+2. [UToronto CSC321: Intro to Neural Networks and Machine Learning][utnnml]
+
+[stancs231]: https://cs231n.github.io/
+[utnnml]: http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/
+
+*(To be updated in the future)*
