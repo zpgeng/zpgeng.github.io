@@ -1,11 +1,10 @@
 ---
 layout: post
+mathjax: true
 title:  "EM Algorithm Explained"
 date:   2020-04-17
 categories: Machine-Learning
 comments: true
-mathjax: true
-
 ---
 
 Recently, one of my favourite courses this semester mentioned a crucial concept in unsupervised clustering theory, which is widely known to all, *EM Algorithm*. This course is called *Computational Intelligence Lab*, which shows you a variety of AI-related problems and their corresponding solutions. It seems like an applied version course. However, I found it difficult to comprehend the whole underlying theory. It seems like this course always wants us to focus on the application part, but all of the previous foundation of the theory and their proof are omitted deliberately. Thus, I have to find so many off-class materials to fully understand the notion and concepts.

@@ -68,6 +68,8 @@
     <body>
         
         {% include site-header.html %}
+		<!-- Newly Added -->
+		{% include mathjax.html %}
         
         {% if page.layout == 'home' %}
         {% assign page-tagline = site.description | default: site.github.project_tagline | escape %}
