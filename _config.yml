@@ -15,10 +15,6 @@ cayman-blog:
 
 theme: 
 
-markdown: kramdown
-kramdown:
-    math_engine: katex
-
 # social
 author: Zipei Geng
 image:
