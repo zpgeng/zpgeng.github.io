@@ -73,13 +73,17 @@ content:
           Making eye gaze position prediction using EEG data synthesized from human brain.
         description: | # this will include new lines to allow paragraphs
           At present, the overarching goal is to provide a state-of-the-art EEG based eye tracking approach that makes use of neural networks to classify the direction of gaze (left or right) on the computer screen. This in turn could accelerate scientific discovery on perceptual, attentional, cognitive processes particularly during free viewing of complex stimuli (i.e. naturalistic paradigms) and in clinical settings, in which the installation of an eye-tracker is impractical (e.g. hospital bed).
-        
+
+    content:
+      - layout: top-middle    
         title: Human Gesture Recognition
         quote: >
           ETH Zürich Computational Intelligence Lab Course Project
         description: |
           Proposed a novel pipeline including data preprocessing and data augmentation following by 2D convolutions and bidirectional LSTMs to classify human gestures in video format, which ranked the 1st out of 12 groups.
-        
+    
+    content:
+      - layout: top-middle
         title: Weight Estimation Using Wheel Load Checkpoint
         quote: >
           SBB CFF FFS Research Project
@@ -108,7 +112,9 @@ content:
             -Effectively searched and integrated the information from the prospectus of related pharmaceutical companies which are listed in HKEX.
             
             - Proofread the 630 accountant report by locating the specific errors and adjusted the wording and format of some key parts in the report.
-
+    
+    content:
+      - layout: left
         title: Stifel GMP Securities
         link: https://www.stifel.com/institutional/StifelCanada
         # link_text: boringcompany.com
@@ -138,7 +144,9 @@ content:
             2. Machine Learning-related: Natural Language Processing, Intrduction to Machine Learning, Probabilistic Artificial Intelligence, Mathematical Tools in Machine Learning, Machine Perception
           
             3. Data Management & Analysis: ANOVA, Big Data for Engineers, Data Mining
-
+    
+    content:
+      - layout: left
         title: The University of Manchester
         caption: 2017 - 2019
         sub_title: BSc with Honours Mathematics and Statistics
@@ -149,7 +157,9 @@ content:
           *Be honored with 2018 School International Excellence Scholarships*
           
           Relevant Coursework: Introduction to Financial Mathematics, Time Series Analysis, Multivariate Stat. and Machine Learning, Martingales with Applications
-        
+
+    content:
+      - layout: left    
         title: Shandong University
         caption: 2015 - 2019
         sub_title: BSc Statistics
@@ -168,7 +178,7 @@ content:
       Alongside my interests in machine learning and applied mathematics, some of my other interests and hobbies are:
       - Table Tennis
       - [Go (Wei Qi)](https://www.britgo.org/clubs/manchester)
-        - My favourite Go player: [Masaki Takemiya](https://en.wikipedia.org/wiki/Masaki_Takemiya)
+        - My favourite Go player: [Masaki Takemiya (武宫正树)](https://en.wikipedia.org/wiki/Masaki_Takemiya)
       - Football
         - Favourite Club(s): [Inter Milan](https://www.inter.it/en), [Man United](https://www.manutd.com/)
 
