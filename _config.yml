@@ -12,7 +12,7 @@ email: zigeng@student.ethz.ch
 website: zpgeng.github.io
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 twitter_username: ZipeiGeng
