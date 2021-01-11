@@ -19,10 +19,10 @@ twitter_username: ZipeiGeng
 github_username:  zpgeng
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-facebook_username: Zipei Geng
+facebook_username: zipeigeng
 # flickr_username: jekyll
 instagram_username: gengzipei
-linkedin_username: Zipei(Fred) Geng
+linkedin_username: zipei-fred-geng-182271102
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -160,10 +160,11 @@ content:
         quote: >
           The University of Manchester is a public research university in Manchester, England. It has great and immediate impact within the research community. The QS World University Rankings 2020–21 placed Manchester 29th in the world. The Academic Ranking of World Universities 2020 ranked Manchester 5th in the UK and 36th in the world.
         description: |
-          GPA: 84/100
-          *Be honored with 2018 School International Excellence Scholarships*
+          - GPA: 84/100
           
-          Relevant Coursework: Introduction to Financial Mathematics, Time Series Analysis, Multivariate Stat. and Machine Learning, Martingales with Applications
+          - *Be honored with 2018 School International Excellence Scholarships*
+          
+          - Relevant Coursework: Introduction to Financial Mathematics, Time Series Analysis, Multivariate Stat. and Machine Learning, Martingales with Applications
 
   - title:
     layout: list # Type of content section (list/text)
@@ -175,10 +176,11 @@ content:
         quote: >
           The University of Manchester is a public research university in Manchester, England. It has great and immediate impact within the research community. The QS World University Rankings 2020–21 placed Manchester 29th in the world. The Academic Ranking of World Universities 2020 ranked Manchester 5th in the UK and 36th in the world.
         description: |
-          GPA: 4.52/5.0
-          *Be honored with Shandong University Second Prize Scholarship (2015 - 2016, 2016 - 2017)*
+          - GPA: 4.52/5.0
           
-          Relevant Coursework: PDE, ODE, Measure Theory, Mathematical Modelling, Mathematical Experiments (MATLAB)
+          - *Be honored with Shandong University Second Prize Scholarship (2015 - 2016, 2016 - 2017)*
+          
+          -Relevant Coursework: PDE, ODE, Measure Theory, Mathematical Modelling, Mathematical Experiments (MATLAB)
 
 
   - title: A Little More About Me
@@ -191,8 +193,12 @@ content:
       - Football
         - Favourite Club(s): [Inter Milan](https://www.inter.it/en), [Man United](https://www.manutd.com/)
 
-      Look at the noted landscape from my hometown, **Beijing**  
+      1. Look at the noted landscape from my hometown, **Beijing**  
       ![The Forbbiden City](images/gugong.jpg)
+
+      2. My favourite Peking cuisine(s):
+        - ![Peking Roast Duck](images/roastduck.jpg)
+        - ![Boiled Pork Offal with Cake Bits (卤煮火烧)](images/luzhu.jpg)
 
 # Footer
 footer_show_references: true
