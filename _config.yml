@@ -114,7 +114,7 @@ content:
             
             - Proofread the 630 accountant report by locating the specific errors and adjusted the wording and format of some key parts in the report.
     
-    layout: list # Type of content section (list/text)
+  - layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Stifel GMP Securities
@@ -147,7 +147,7 @@ content:
           
             3. Data Management & Analysis: ANOVA, Big Data for Engineers, Data Mining
     
-    layout: list # Type of content section (list/text)
+  - layout: list # Type of content section (list/text)
     - content:
       - layout: left
         title: The University of Manchester
@@ -161,7 +161,7 @@ content:
           
           Relevant Coursework: Introduction to Financial Mathematics, Time Series Analysis, Multivariate Stat. and Machine Learning, Martingales with Applications
 
-    layout: list # Type of content section (list/text)
+  - layout: list # Type of content section (list/text)
     - content:
       - layout: left  
         title: Shandong University
