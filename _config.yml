@@ -73,7 +73,8 @@ content:
           Making eye gaze position prediction using EEG data synthesized from human brain.
         description: | # this will include new lines to allow paragraphs
           At present, the overarching goal is to provide a state-of-the-art EEG based eye tracking approach that makes use of neural networks to classify the direction of gaze (left or right) on the computer screen. This in turn could accelerate scientific discovery on perceptual, attentional, cognitive processes particularly during free viewing of complex stimuli (i.e. naturalistic paradigms) and in clinical settings, in which the installation of an eye-tracker is impractical (e.g. hospital bed).
-  - layout: list
+  - title: 
+    layout: list
     content:
       - layout: top-middle    
         title: Human Gesture Recognition
@@ -81,8 +82,9 @@ content:
           ETH Zürich Computational Intelligence Lab Course Project
         description: |
           Proposed a novel pipeline including data preprocessing and data augmentation following by 2D convolutions and bidirectional LSTMs to classify human gestures in video format, which ranked the 1st out of 12 groups.
-
-  - layout: list
+  
+  - title:
+    layout: list
     content:
       - layout: top-middle
         title: Weight Estimation Using Wheel Load Checkpoint
@@ -113,8 +115,9 @@ content:
             -Effectively searched and integrated the information from the prospectus of related pharmaceutical companies which are listed in HKEX.
             
             - Proofread the 630 accountant report by locating the specific errors and adjusted the wording and format of some key parts in the report.
-    
-  - layout: list # Type of content section (list/text)
+  
+  - title:  
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Stifel GMP Securities
@@ -130,7 +133,7 @@ content:
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
-    - content:
+    content:
       - layout: left
         title: ETH Zürich
         caption: 2019 - 2022
@@ -147,8 +150,9 @@ content:
           
             3. Data Management & Analysis: ANOVA, Big Data for Engineers, Data Mining
     
-  - layout: list # Type of content section (list/text)
-    - content:
+  - title:
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left
         title: The University of Manchester
         caption: 2017 - 2019
@@ -161,8 +165,9 @@ content:
           
           Relevant Coursework: Introduction to Financial Mathematics, Time Series Analysis, Multivariate Stat. and Machine Learning, Martingales with Applications
 
-  - layout: list # Type of content section (list/text)
-    - content:
+  - title:
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left  
         title: Shandong University
         caption: 2015 - 2019
