@@ -72,7 +72,7 @@ content:
         quote: >
           Making eye gaze position prediction using EEG data synthesized from human brain.
         description: | # this will include new lines to allow paragraphs
-          At present, the overarching goal is to provide a state-of-the-art EEG based eye tracking approach that makes use of neural networks to classify the direction of gaze (left or right) on the computer screen. This in turn could accelerate scientific discovery on perceptual, attentional, cognitive processes particularly during free viewing of complex stimuli (i.e. naturalistic paradigms) and in clinical settings, in which the installation of an eye-tracker is impractical (e.g. hospital bed).
+          - At present, the overarching goal is to provide a state-of-the-art EEG based eye tracking approach that makes use of neural networks to classify the direction of gaze (left or right) on the computer screen. This in turn could accelerate scientific discovery on perceptual, attentional, cognitive processes particularly during free viewing of complex stimuli (i.e. naturalistic paradigms) and in clinical settings, in which the installation of an eye-tracker is impractical (e.g. hospital bed).
   - title: 
     layout: list
     content:
@@ -81,7 +81,7 @@ content:
         quote: >
           ETH Zürich Computational Intelligence Lab Course Project
         description: |
-          Proposed a novel pipeline including data preprocessing and data augmentation following by 2D convolutions and bidirectional LSTMs to classify human gestures in video format, which ranked the 1st out of 12 groups.
+          - Proposed a novel pipeline including data preprocessing and data augmentation following by 2D convolutions and bidirectional LSTMs to classify human gestures in video format, which ranked the 1st out of 12 groups.
   
   - title:
     layout: list
@@ -112,7 +112,7 @@ content:
             
             - Verified the information for disclosure of employee benefits expenses by sending confirmations to related parties including banks and directors using Excel.
             
-            -Effectively searched and integrated the information from the prospectus of related pharmaceutical companies which are listed in HKEX.
+            - Effectively searched and integrated the information from the prospectus of related pharmaceutical companies which are listed in HKEX.
             
             - Proofread the 630 accountant report by locating the specific errors and adjusted the wording and format of some key parts in the report.
   
@@ -174,13 +174,13 @@ content:
         caption: 2015 - 2019
         sub_title: BSc Statistics
         quote: >
-          The University of Manchester is a public research university in Manchester, England. It has great and immediate impact within the research community. The QS World University Rankings 2020–21 placed Manchester 29th in the world. The Academic Ranking of World Universities 2020 ranked Manchester 5th in the UK and 36th in the world.
+          Shandong University is a public research comprehensive university in Jinan, Shandong, China. It is one of the largest universities in China by student population and is supported directly by the national government. It is famous for its mathematics and natural sciences. In 2020, the Ministry of Education of P.R.C. ranked School of Mathematics of Shandong University the 3rd among all Chiniese universities.
         description: |
           - GPA: 4.52/5.0
           
           - *Be honored with Shandong University Second Prize Scholarship (2015 - 2016, 2016 - 2017)*
           
-          -Relevant Coursework: PDE, ODE, Measure Theory, Mathematical Modelling, Mathematical Experiments (MATLAB)
+          - Relevant Coursework: PDE, ODE, Measure Theory, Mathematical Modelling, Mathematical Experiments (MATLAB)
 
 
   - title: A Little More About Me
@@ -193,8 +193,7 @@ content:
       - Football
         - Favourite Club(s): [Inter Milan](https://www.inter.it/en), [Man United](https://www.manutd.com/)
 
-      1. Look at the noted landscape from my hometown, **Beijing**  
-      The Forbbiden City
+      1. The noted landscape "The Forbbiden City"  from my hometown, **Beijing**  
       ![The Forbbiden City](images/gugong.jpg)
 
       2. My favourite Peking cuisine(s):
