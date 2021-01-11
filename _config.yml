@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Zipei Geng
-title: 2nd Year Master's Student
+title: Master's Student
 email: zigeng@student.ethz.ch
 website: zpgeng.github.io
 
@@ -57,7 +57,7 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
-    content:
+    - content:
       - layout: top-middle
         title: Eye Gaze Estimation Using Electroencephalography Signals
         # link: 
@@ -74,7 +74,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           At present, the overarching goal is to provide a state-of-the-art EEG based eye tracking approach that makes use of neural networks to classify the direction of gaze (left or right) on the computer screen. This in turn could accelerate scientific discovery on perceptual, attentional, cognitive processes particularly during free viewing of complex stimuli (i.e. naturalistic paradigms) and in clinical settings, in which the installation of an eye-tracker is impractical (e.g. hospital bed).
 
-    content:
+    - content:
       - layout: top-middle    
         title: Human Gesture Recognition
         quote: >
@@ -82,7 +82,7 @@ content:
         description: |
           Proposed a novel pipeline including data preprocessing and data augmentation following by 2D convolutions and bidirectional LSTMs to classify human gestures in video format, which ranked the 1st out of 12 groups.
     
-    content:
+    - content:
       - layout: top-middle
         title: Weight Estimation Using Wheel Load Checkpoint
         quote: >
@@ -96,7 +96,7 @@ content:
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
-    content:
+    - content:
       - layout: left
         title: PricewaterhouseCoopers
         link: https://www.pwccn.com/zh.html
@@ -113,7 +113,7 @@ content:
             
             - Proofread the 630 accountant report by locating the specific errors and adjusted the wording and format of some key parts in the report.
     
-    content:
+    - content:
       - layout: left
         title: Stifel GMP Securities
         link: https://www.stifel.com/institutional/StifelCanada
@@ -128,7 +128,7 @@ content:
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
-    content:
+    - content:
       - layout: left
         title: ETH Zürich
         caption: 2019 - 2022
@@ -145,7 +145,7 @@ content:
           
             3. Data Management & Analysis: ANOVA, Big Data for Engineers, Data Mining
     
-    content:
+    - content:
       - layout: left
         title: The University of Manchester
         caption: 2017 - 2019
@@ -158,7 +158,7 @@ content:
           
           Relevant Coursework: Introduction to Financial Mathematics, Time Series Analysis, Multivariate Stat. and Machine Learning, Martingales with Applications
 
-    content:
+    - content:
       - layout: left    
         title: Shandong University
         caption: 2015 - 2019
