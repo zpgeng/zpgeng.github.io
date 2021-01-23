@@ -46,7 +46,7 @@ linkedin_username: zipei-fred-geng-182271102
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am **Zipei (Fred) Geng**, a student at ETH Zürich major in **Statistics & Data Science**. 
   
